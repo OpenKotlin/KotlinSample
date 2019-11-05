@@ -26,7 +26,7 @@ Kotlin 的使用
 
 ## Bug 反馈
 
-如果您有任何反馈或建议，欢迎提交到 [Github issues](https://github.com/organizations/OpenKotlin/KotlinSample/issues).
+如果您有任何反馈或建议，欢迎提交到 [Github issues](https://github.com/OpenKotlin/KotlinSample/issues).
 
 ## LICENSE
 
