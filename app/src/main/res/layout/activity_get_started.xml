@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.openkotlin.sample.getStarted.GetStartedActivity">
+
+    <Button
+        android:id="@+id/btnFindView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/i_m_a_button" />
+
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast" />
+
+    <Button
+        android:id="@+id/btnIsInitialed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/is_initialed" />
+</LinearLayout>

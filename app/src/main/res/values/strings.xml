@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Kotlin Sample</string>
+    <string name="get_started">Get started</string>
+    <string name="operations">Operations</string>
+    <string name="i_m_a_button">I\'m a button.</string>
+    <string name="goodbye_find_view_by_id">Goodbye, findViewById</string>
+    <string name="toast">Toast</string>
+    <string name="is_initialed">Is initialed</string>
+    <string name="apply">apply</string>
+    <string name="let">let</string>
+    <string name="with">with</string>
+    <string name="also">also</string>
+    <string name="extension">Extension</string>
+    <string name="i_m_let">I\'m let</string>
+    <string name="i_m_apply">I\'m apply</string>
+    <string name="i_m_with">I\'m with</string>
+    <string name="i_m_also">I\'m also</string>
+    <string name="run">run</string>
+    <string name="i_m_run">I\'m run</string>
+    <string name="take_if">takeIf</string>
+    <string name="take_unless">takeUnless</string>
+    <string name="repeat">repeat</string>
+    <string name="increase">increase</string>
+    <string name="time_stamp">timeStamp</string>
+    <string name="recyclerView">RecyclerView</string>
+</resources>

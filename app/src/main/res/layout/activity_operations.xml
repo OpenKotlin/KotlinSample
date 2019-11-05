@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.openkotlin.sample.operations.OperationsActivity">
+
+    <Button
+        android:id="@+id/btnApply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apply" />
+
+    <Button
+        android:id="@+id/btnAlso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/also" />
+
+    <Button
+        android:id="@+id/btnLet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/let" />
+
+
+    <Button
+        android:id="@+id/btnWith"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/with" />
+
+    <Button
+        android:id="@+id/btnRun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/run" />
+
+    <Button
+        android:id="@+id/btnTakeIf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/take_if" />
+
+    <Button
+        android:id="@+id/btnTakeUnless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/take_unless" />
+
+    <Button
+        android:id="@+id/btnRepeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/repeat" />
+</LinearLayout>
