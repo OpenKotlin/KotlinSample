@@ -48,7 +48,7 @@ class AnkoActivity : AppCompatActivity() {
         find<Button>(R.id.btnSdkVersion).setOnClickListener {
             // sdk 大于等于 21 才执行
             doFromSdk(21) {
-                Log.d(TAG, "sdk version > 21")
+                Log.d(TAG, "sdk version >= 21")
             }
             // sdk 等于 29 才执行
             doIfSdk(29) {

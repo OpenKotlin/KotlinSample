@@ -84,6 +84,7 @@ class GetStartedActivity : AppCompatActivity() {
         btnWhen.setOnClickListener {
             // when 对应 java 中的 switch，但 when 远比 switch 强大
             val randomNumber = (0..9).random()
+            // 如果有多个条件执行统一动作，用','连接多个条件即可
             when (randomNumber) {
                 in 0..2 -> toast("small number:$randomNumber")
                 in 3..5 -> toast("middle number:$randomNumber")
