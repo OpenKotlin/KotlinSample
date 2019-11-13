@@ -69,6 +69,9 @@ class GetStartedActivity : AppCompatActivity() {
             for (i in list) {
                 Log.d(TAG, "loop of list:$i")
             }
+            list.forEach {
+                Log.d(TAG, "forEach loop:$it")
+            }
             for (i in list.withIndex()) {
                 Log.d(TAG, "loop of list with index:${i.index} -> ${i.value}")
             }

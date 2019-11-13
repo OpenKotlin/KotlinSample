@@ -12,6 +12,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="donut">
+        <activity android:name=".anko.AnkoActivity"></activity>
         <activity android:name=".collections.CollectionsActivity" />
         <activity android:name=".recyclerView.RecyclerViewActivity" />
         <activity android:name=".extension.ExtensionActivity" />

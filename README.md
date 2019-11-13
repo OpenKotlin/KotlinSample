@@ -25,6 +25,8 @@ Kotlin 的使用
     * recyclerView kotlin 版 RecyclerView 例子
     
     * collections kotlin 对集合的操作符
+    
+    * anko anko 语法糖介绍
 
 ## Bug 反馈
 

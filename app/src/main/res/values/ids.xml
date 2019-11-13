@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnGetExtras" type="id" />
+    <item name="btnBrowse" type="id" />
+    <item name="btnPxDpConvert" type="id" />
+    <item name="btnAttempt" type="id" />
+    <item name="btnSdkVersion" type="id" />
+    <item name="btnAlert" type="id" />
+    <item name="btnSelector" type="id" />
+</resources>

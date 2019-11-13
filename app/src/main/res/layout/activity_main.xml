@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.openkotlin.sample.MainActivity">
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btnGetStarted"
@@ -35,5 +35,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/collections" />
+
+    <Button
+        android:id="@+id/btnAnko"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/anko" />
 
 </LinearLayout>

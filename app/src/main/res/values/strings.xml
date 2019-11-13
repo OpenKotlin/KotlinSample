@@ -30,4 +30,12 @@
     <string name="flat_map">flatMap</string>
     <string name="filter">filter</string>
     <string name="collections">Collections</string>
+    <string name="anko">Anko</string>
+    <string name="get_extras">get extras</string>
+    <string name="browse">browse</string>
+    <string name="px_dp_convert">px dp convert</string>
+    <string name="attempt">attempt</string>
+    <string name="sdk_version">sdk version</string>
+    <string name="alert">alert</string>
+    <string name="selector">selector</string>
 </resources>

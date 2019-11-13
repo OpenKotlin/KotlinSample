@@ -33,11 +33,11 @@ class CollectionsActivity : AppCompatActivity() {
         btnFlatMap.setOnClickListener {
             val list = (1..3).toList()
             // flatMap 用于将列表展开，再把返回的列表拼接成新列表
-            val stringList = list.flatMap {
-                listOf("item", it)
+            val newList = list.flatMap {
+                listOf("insertItem $it", it)
             }
-            for (item in stringList) {
-                Log.d(TAG, "$item")
+            newList.forEach {
+                Log.d(TAG, "$it")
             }
         }
         btnFilter.setOnClickListener {
