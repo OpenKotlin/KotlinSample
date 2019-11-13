@@ -23,4 +23,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/is_initialed" />
+
+    <Button
+        android:id="@+id/btnRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/range" />
+
+    <Button
+        android:id="@+id/btnLoop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loop" />
+
+
+    <Button
+        android:id="@+id/btnWhen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/when" />
 </LinearLayout>

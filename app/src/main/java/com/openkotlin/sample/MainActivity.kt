@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.openkotlin.sample.collections.CollectionsActivity
 import com.openkotlin.sample.extension.ExtensionActivity
 import com.openkotlin.sample.getStarted.GetStartedActivity
 import com.openkotlin.sample.recyclerView.RecyclerViewActivity
@@ -24,16 +25,17 @@ class MainActivity : AppCompatActivity() {
         btnGetStarted.setOnClickListener {
             jumpActivity(GetStartedActivity::class)
         }
-
         btnOperations.setOnClickListener {
             jumpActivity(OperationsActivity::class)
         }
         btnExtension.setOnClickListener {
             jumpActivity(ExtensionActivity::class)
         }
-
         btnRecyclerView.setOnClickListener {
             jumpActivity(RecyclerViewActivity::class)
+        }
+        btnCollections.setOnClickListener {
+            jumpActivity(CollectionsActivity::class)
         }
     }
 }

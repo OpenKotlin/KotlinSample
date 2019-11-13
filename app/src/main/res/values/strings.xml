@@ -23,4 +23,11 @@
     <string name="increase">increase</string>
     <string name="time_stamp">timeStamp</string>
     <string name="recyclerView">RecyclerView</string>
+    <string name="loop">loop</string>
+    <string name="range">range</string>
+    <string name="when">when</string>
+    <string name="map">map</string>
+    <string name="flat_map">flatMap</string>
+    <string name="filter">filter</string>
+    <string name="collections">Collections</string>
 </resources>

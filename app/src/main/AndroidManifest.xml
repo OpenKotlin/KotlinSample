@@ -3,8 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.openkotlin.sample">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
@@ -14,6 +12,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="donut">
+        <activity android:name=".collections.CollectionsActivity" />
         <activity android:name=".recyclerView.RecyclerViewActivity" />
         <activity android:name=".extension.ExtensionActivity" />
         <activity android:name=".operations.OperationsActivity" />
@@ -26,5 +25,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
